@@ -35,7 +35,7 @@ Database
 The project uses MySQL with two tables:
 
 users,
-messages,
+messages
 
 The database structure is provided in `database.sql`.
 
