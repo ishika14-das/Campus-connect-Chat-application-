@@ -9,7 +9,7 @@ app.secret_key = "chatapp123"
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="14102006",
+    password="Your_MYSQL_PASSWORD",
     database="chat_app"
 )
 
