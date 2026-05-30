@@ -1,0 +1,31 @@
+CREATE DATABASE IF NOT EXISTS chat_app;
+
+USE chat_app;
+
+CREATE TABLE users(
+
+id INT AUTO_INCREMENT PRIMARY KEY,
+
+username VARCHAR(100),
+
+password VARCHAR(255),
+
+status VARCHAR(20),
+
+last_seen DATETIME
+
+);
+
+CREATE TABLE messages(
+
+id INT AUTO_INCREMENT PRIMARY KEY,
+
+sender VARCHAR(100),
+
+receiver VARCHAR(100),
+
+message TEXT,
+
+created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+
+);
