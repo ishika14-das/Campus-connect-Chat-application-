@@ -22,20 +22,20 @@ Responsive User Interface
 
 Technologies Used
 
-Python
-Flask
-MySQL
-HTML
-CSS
-JavaScript
+Python,
+Flask,
+MySQL,
+HTML,
+CSS,
+JavaScript,
 Werkzeug Security
 
 Database
 
 The project uses MySQL with two tables:
 
-users
-messages
+users,
+messages,
 
 The database structure is provided in `database.sql`.
 
